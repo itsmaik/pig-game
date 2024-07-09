@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #573682 0%, #2ebfbd 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,7 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(107, 200, 211, 0.95);
   backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -78,7 +78,7 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #c7365fd7;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -114,7 +114,7 @@ main {
   font-weight: 400;
   transition: all 0.2s;
 
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
 
